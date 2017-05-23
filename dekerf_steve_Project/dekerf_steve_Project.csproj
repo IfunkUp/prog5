@@ -89,6 +89,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="pics\2017573-664645_20121106_001.jpg" />
+    <Content Include="pics\download.jpg" />
+    <Content Include="pics\images.jpg" />
+    <Content Include="pics\KSP_PKS_15_4380.jpg" />
+    <Content Include="pics\MARGAY-RENT-ME.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
