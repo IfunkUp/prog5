@@ -6,18 +6,16 @@ using System.Web.Mvc;
 
 namespace dekerf_steve_Project.Controllers
 {
-    public class HomeController : Controller
+    public class LoginController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
+        // GET: Login
+        public ActionResult Login()
         {
             return View();
         }
-        public ActionResult Welkom()
+        public ActionResult Register()
         {
-            ViewBag.Log = "Login";
             return View();
         }
-
     }
 }

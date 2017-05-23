@@ -664,7 +664,7 @@ Google Map Style
     /* ==========================================================================
 Footer Map Style
 ========================================================================== */
-footer {
+/*footer {
   background: #24242a;
   padding: 60px 0;
   text-align: center;
@@ -693,7 +693,7 @@ footer .social a:active {
 footer h6 {
   text-transform: uppercase;
   color: #fff;
-}
+}*/
 
     /* ==========================================================================
 Media Queries Style
@@ -702,6 +702,7 @@ Media Queries Style
   /*-- Navigation --*/
   .navbar-default {
     background: #24242a;
+
   }
   .navbar-default .navbar-header {
     width: 100%;
