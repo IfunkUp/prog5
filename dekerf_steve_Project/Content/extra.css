@@ -1,0 +1,23 @@
+﻿#extra_div1{
+    display: table-row;
+}
+label, input{
+    display: inline-block;
+    margin-top: 10px;
+    width: 150px;
+    
+  
+    vertical-align:middle;
+}
+label{
+    width:200px;
+}
+
+
+#container{
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    align-self:center;
+}
