@@ -12,22 +12,13 @@ namespace dekerf_steve_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class Proj_evenementen
+    public partial class evenement
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Proj_evenementen()
-        {
-            this.Proj_pers = new HashSet<Proj_pers>();
-        }
-    
         public int id { get; set; }
         public string naam { get; set; }
         public string beschrijving { get; set; }
-        public int locatie { get; set; }
         public System.DateTime datum { get; set; }
     
-        public virtual Proj_gemeenten Proj_gemeenten { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proj_pers> Proj_pers { get; set; }
+        public virtual gemeente Proj_gemeenten { get; set; }
     }
 }

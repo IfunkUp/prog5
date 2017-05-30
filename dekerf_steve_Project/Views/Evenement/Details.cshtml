@@ -1,0 +1,42 @@
+﻿@model dekerf_steve_Project.evenement
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>evenement</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.naam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.naam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.beschrijving)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.beschrijving)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.datum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datum)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

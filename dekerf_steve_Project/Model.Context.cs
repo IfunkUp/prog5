@@ -13,10 +13,10 @@ namespace dekerf_steve_Project
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class model1 : DbContext
+    public partial class project : DbContext
     {
-        public model1()
-            : base("name=model1")
+        public project()
+            : base("name=project")
         {
         }
     
@@ -25,8 +25,9 @@ namespace dekerf_steve_Project
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Proj_evenementen> Proj_evenementen { get; set; }
-        public virtual DbSet<Proj_gemeenten> Proj_gemeenten { get; set; }
-        public virtual DbSet<Proj_pers> Proj_pers { get; set; }
+        public virtual DbSet<evenement> evenements { get; set; }
+        public virtual DbSet<gemeente> gemeentes { get; set; }
+        public virtual DbSet<persoon> persoons { get; set; }
+        public virtual DbSet<Vraag> Vraags { get; set; }
     }
 }

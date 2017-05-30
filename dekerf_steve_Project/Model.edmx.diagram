@@ -4,13 +4,13 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="c3cf9d70a5f54a72aeadfbb5c319df2d" Name="Diagram1">
-        <EntityTypeShape EntityType="Model.Proj_evenementen" Width="1.5" PointX="5.875" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="Model.Proj_gemeenten" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Model.Proj_pers" Width="1.5" PointX="3.375" PointY="2.375" IsExpanded="true" />
-        <AssociationConnector Association="Model.FK_Evenement_Loc_Gemeente_code" ManuallyRouted="false" />
-        <AssociationConnector Association="Model.Proj_persProj_gemeenten" />
-        <AssociationConnector Association="Model.Proj_persProj_evenementen" />
+      <Diagram DiagramId="2c53de0d94394f7693facd7306846935" Name="Diagram1">
+        <EntityTypeShape EntityType="INFO_c1035462Model.evenement" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="INFO_c1035462Model.gemeente" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="INFO_c1035462Model.persoon" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="INFO_c1035462Model.Vraag" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="INFO_c1035462Model.FK_Evenement_Loc_Gemeente_code" ManuallyRouted="false" />
+        <AssociationConnector Association="INFO_c1035462Model.FK_Proj_pers_ToTable" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

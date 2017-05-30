@@ -12,13 +12,13 @@ namespace dekerf_steve_Project
     using System;
     using System.Collections.Generic;
     
-    public partial class Proj_gemeenten
+    public partial class gemeente
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Proj_gemeenten()
+        public gemeente()
         {
-            this.Proj_evenementen = new HashSet<Proj_evenementen>();
-            this.Proj_pers = new HashSet<Proj_pers>();
+            this.Proj_evenementen = new HashSet<evenement>();
+            this.Proj_pers = new HashSet<persoon>();
         }
     
         public int id { get; set; }
@@ -26,8 +26,8 @@ namespace dekerf_steve_Project
         public Nullable<int> postcode { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proj_evenementen> Proj_evenementen { get; set; }
+        public virtual ICollection<evenement> Proj_evenementen { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proj_pers> Proj_pers { get; set; }
+        public virtual ICollection<persoon> Proj_pers { get; set; }
     }
 }
