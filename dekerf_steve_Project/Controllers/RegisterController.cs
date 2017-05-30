@@ -13,20 +13,7 @@ namespace dekerf_steve_Project.Controllers
         {
             return View();
         }
-        public ActionResult Test()
-        {
 
-
-
-
-
-
-
-
-
-
-            return View();
-        }
 
     }
 }
